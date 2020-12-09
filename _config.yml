@@ -1,8 +1,16 @@
-title: Memon.GitHub.io
+title: Ali Memon's Personal Website
 description: 
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
 
 gems:
   - jekyll-mentions
+
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
